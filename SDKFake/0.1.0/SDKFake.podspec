@@ -3,10 +3,7 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '9.0'
-
-plugin 'cocoapods-art', :sources => [ 'cocoapods-release'
-]
-  
+ 
 s.name = "SDKFake"
 s.summary = "SDKFake is a sample for BioCatch Tests."
 s.requires_arc = true
